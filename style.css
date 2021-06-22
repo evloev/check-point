@@ -1,0 +1,43 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.title {
+   line-height: 1.2;
+   color: rgb(26, 102, 138);
+   font-weight: 500;
+}
+
+.text {
+   color: rgb(147, 136, 173);
+}
+
+.contact_item {
+   color: rgb(23, 23, 160);
+   text-decoration: none;
+   font-weight: 500;
+}
+
+.contact_item:hover {
+   color: rgb(233, 72, 8);
+   font-size: 20px;
+}
+
+
+.suptitle {
+   color: rgb(72, 14, 105);
+   font-weight: 500;
+
+}
+
+.list_item {
+   list-style: none;
+}
